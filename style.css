@@ -1,0 +1,90 @@
+/* початок стилів скидання для сторінки */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+hr {
+    margin: 0;
+}
+
+button {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+
+/* кінець стилів скидання для сторінки */
+html {
+    background-color: #0C122C;
+}
+
+body {
+    background-image: url(./images/bg-desktop.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+    .control {
+        width: 350px;
+        height: 201px;
+        background: #1E2D69;
+        box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776);
+        border-radius: 10px 100px 10px 10px;
+        padding: 40px;
+    }
+
+    .info {
+        width: 540px;
+        height: 154px;
+        background: #1E2D69;
+        box-shadow: 0px 75px 100px -30px rgba(0, 0, 0, 0.24776);
+        border-radius: 10px;
+        padding: 40px;
+    }
+
+}
