@@ -78,7 +78,7 @@ body {
     align-items: flex-end;
     justify-content: center;
     gap: 30px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     position: relative;
 
     .control {
